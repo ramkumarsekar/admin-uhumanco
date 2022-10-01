@@ -33,4 +33,6 @@ jobs:
       with:
         target_branch: gh-pages
         build_dir: dist
+      env:
+        GITHUB_TOKEN: ${{ secrets.API_GITKEY }}
 
